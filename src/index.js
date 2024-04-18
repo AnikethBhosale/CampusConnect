@@ -3,16 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Home from './pages/home_page/home';
-import Events from './pages/event_page/event'
-import CreateEvent from './pages/create_event/createEvent';
+ import Home from './pages/home_page/home';
+ import Events from './pages/event_page/event'
+ import CreateEvent from './pages/create_event/createEvent';
 import Communities from './pages/communities_page/communities';
 import AllEvents from './pages/all_events/allEvents';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    < Communities/>
   </React.StrictMode>
 );
 

@@ -1,0 +1,42 @@
+.communitiesListContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-gap: 50px; 
+  margin-top:180px ;
+  padding: 80px;
+}
+
+@media (max-width: 800px) {
+  .communitiesListContainer {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+.community1,
+.community2,
+.community3,
+.community4,
+.community5,
+.community6,
+.community7,
+.community8 {
+  background-color: rgba(87, 90, 161, 1);
+  padding: 20px; 
+  border-radius: 40px; 
+  color: #fff; 
+  height: 290px;
+  width: 225px;
+  transition: background-color 0.4s, transform 0.4s;
+}
+
+.community1:hover ,
+.community2:hover ,
+.community3:hover ,
+.community4:hover ,
+.community5:hover ,
+.community6:hover ,
+.community7:hover ,
+.community8:hover  {
+  background-color: rgb(70, 76, 183); 
+  transform: translateY(-8px);
+}
