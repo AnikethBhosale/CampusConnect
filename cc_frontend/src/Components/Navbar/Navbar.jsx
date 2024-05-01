@@ -2,6 +2,12 @@ import React from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
 import wreck from "../Assets/wreck.jpg";
+import { IoIosHome } from "react-icons/io";
+import { MdEventSeat } from "react-icons/md";
+import { FaUserFriends } from "react-icons/fa";
+import { IoCreate } from "react-icons/io5";
+import { MdLogin } from "react-icons/md";
+import { FaSearch } from "react-icons/fa";
 
 function Navbar() {
   return (
@@ -14,23 +20,23 @@ function Navbar() {
            <div className='nav-search'>
                 <input className='nav-text'
                     type="text"
-                    placeholder="Search....."
+                    placeholder="  Search"
                 />
-                <button className="search-button"></button>
+                <button className="search-button"><FaSearch /></button>
             </div>
             <div>
             <ul className="nav-menu1">
                 <li>
-               <Link to="/"><button className='page-button'>H</button></Link> 
+               <Link to="/"><button className='page-button'><IoIosHome /></button></Link> 
                 </li>
                 <li>
-               <Link to="/SD"><button className='page-button'>E</button></Link>
+               <Link to="/SD"><button className='page-button'><MdEventSeat /></button></Link>
                 </li>
                 <li>
                 <Link to="/EventInfo"><button className='page-button'>I</button></Link>
                 </li>
                 <li>
-                <Link to="/Communities"><button className='page-button'>C</button></Link>
+                <Link to="/Communities"><button className='page-button'><FaUserFriends /></button></Link>
                 </li>
             </ul>
             </div>
@@ -40,10 +46,10 @@ function Navbar() {
                 <Link to='/SF'><button id='subbutton'></button></Link>
                 </li>
                 <li>
-                <Link to="/CreaterPage"><button id='subbutton'>CP</button></Link>
+                <Link to="/CreaterPage"><button id='subbutton'><IoCreate /></button></Link>
                 </li>
                 <li>
-                <Link to='/Login'><button id='subbutton'></button></Link>
+                <Link to='/Login'><button id='subbutton'><MdLogin /></button></Link>
                 </li>
             </ul>
             </div>

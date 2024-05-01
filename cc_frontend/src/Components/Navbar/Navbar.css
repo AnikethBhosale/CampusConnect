@@ -36,12 +36,12 @@ gap: 10px;
 
 .nav-search input[type="text"] {
     width: 350px;
-    height: 35px;
+    height: 24px;
     background-color:#575aa1;
-    border: 1px solid #7a7a7a;
     border-radius: 50px;
     font-size: 16px;
     color: white;
+    padding-left: 20px;
 }
 
 .nav-search input[type="text"]::placeholder {
@@ -57,6 +57,7 @@ gap: 10px;
     background-color: #28274d;
     margin: 20px;
     color: white;
+    font-size: 17px;
     border-radius: 50px;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -73,6 +74,7 @@ gap: 10px;
     margin-bottom: 0px;
     padding-left: 0px;
 }
+
 
 .nav-menu2{
     display: flex;
@@ -99,7 +101,8 @@ gap: 10px;
     height: 45px;
     background-color: #575AA1;
     margin : 20px;
-    color: white;
+    color: black;
+    font-size: 23px;
     border-radius: 50px;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -109,7 +112,8 @@ gap: 10px;
     height: 45px;
     background-color: #575AA1;
     margin : 20px;
-    color: white;
+    color: black;
+    font-size: 23px;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
