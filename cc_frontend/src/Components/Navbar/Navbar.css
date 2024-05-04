@@ -1,10 +1,9 @@
 div.navbar{
-    border-radius: 1px 1px 50px 50px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.2);
     border-color: rgba(0, 0, 0, 1);
-    border-style: solid;
+    border-bottom: solid;
     border-width: 1px;
-    background-color: #28274d;
+    backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-evenly;
     width: 1520px;
@@ -20,7 +19,7 @@ div.navbar{
 .logo{
 height: fit-content;
 width: fit-content;
-color: white;
+color: #ff7900;
 text-align: center;
 margin: 0px;
 gap: 10px;
@@ -37,15 +36,16 @@ gap: 10px;
 .nav-search input[type="text"] {
     width: 350px;
     height: 24px;
-    background-color:#575aa1;
+    background-color:white;
     border-radius: 50px;
+    border-color: #ff7900;
     font-size: 16px;
-    color: white;
+    color: black;
     padding-left: 20px;
 }
 
 .nav-search input[type="text"]::placeholder {
-    color: white;
+    color: black;
 }
 
 .nav-search button {
@@ -54,12 +54,14 @@ gap: 10px;
     position: absolute;
     width: 45px;
     height: 45px;
-    background-color: #28274d;
+    background-color: white;
     margin: 20px;
-    color: white;
+    border-width: 2px;
+    border-color: #ff7900;
+    color: black;
     font-size: 17px;
     border-radius: 50px;
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 .nav-menu1{
@@ -99,31 +101,33 @@ gap: 10px;
 .nav-menu1 button{
     width: 45px;
     height: 45px;
-    background-color: #575AA1;
+    background-color: white;
     margin : 20px;
+    border: solid 2px #ff7900;
     color: black;
     font-size: 23px;
     border-radius: 50px;
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .nav-menu2 button{
     width: 45px;
     height: 45px;
-    background-color: #575AA1;
+    background-color: white;
     margin : 20px;
     color: black;
     font-size: 23px;
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border: solid 2px #ff7900;
+    border-radius: 50px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .profile-button{
     width: 65px;
     height: 65px;
     color: white;
-    background-color: #575AA1;
     border-radius: 50px;
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 

@@ -7,8 +7,6 @@
     height: fit-content;
     gap: 30px;
     margin-top: 50px;
-    
-
 }
 
 .home-content{
@@ -20,7 +18,7 @@
     height: 450px;
     margin-left: 350px;
     margin-right: 350px;
-    background-color: #28274d;
+    background-color: #f4f5f6;
     border-radius: 35px;
     
 }
@@ -48,6 +46,7 @@
     color: #28274d;
     border-radius: 35px;
     margin: 20px;
+    color: black;
 
 }
 
@@ -55,7 +54,7 @@
 .home-content-text{
     width: 500px;
     height: 400px;
-    background-color: #575AA1;
+    border: solid 2px #ff7900;
     border-radius: 35px;
     margin: 20px;
 }

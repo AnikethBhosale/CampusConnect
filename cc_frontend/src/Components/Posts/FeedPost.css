@@ -7,9 +7,9 @@
     height: 450px;
     margin-left: 350px;
     margin-right: 350px;
-    background-color: #28274d;
+    background-color: white;
     border-radius: 35px;
-    
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 .home-content-head{
@@ -32,10 +32,11 @@
 .home-content-head button{
     width: 200px;
     height: 50px;
-    background-color: white;
-    color: #28274d;
-    border-radius: 35px;
+    background-color: rgba(255, 121, 0, 0.3);
+    color: #ff7900;
+    border-radius: 10px;
     margin: 20px;
+    border: solid 2px #ff7900
 
 }
 
@@ -43,7 +44,8 @@
 .home-content-text{
     width: 500px;
     height: 400px;
-    background-color: #575AA1;
     border-radius: 35px;
     margin: 20px;
+    border: solid 2px #ff7900;
+    color:black;
 }

@@ -1,15 +1,15 @@
 .creator-page-container {
-    background-color: #28274d;
+    background-color: white;
     border-radius: 35px;
     margin-top: 180px;
     width: 1440px;
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.25);
     margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #ff7900;
 }
 
 .creator-page-head{
@@ -32,8 +32,10 @@
     height: 50px;
     border-radius: 15px;
     background-color: white;
-    color: #181a57;
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #ff7900;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border: solid 2px #ff7900;
+    background-color: rgba(255, 121, 0, 0.3);
 }
 
 .creator-page-body{

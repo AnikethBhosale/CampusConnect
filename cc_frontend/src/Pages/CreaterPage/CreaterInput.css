@@ -1,18 +1,18 @@
 .createri-container{
     display: flex;
     top: 180px;
-    color: white;
+    color: black;
     position: initial;
     align-items: center;
     flex-direction: column;
 }
 
 .createri-container-head{
-    background-color: #28274d;
+    background-color: white;
     border-radius: 35px;
     margin-top: 180px;
     width: 1440px;
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.25);
     margin-bottom: 50px;
 
 }
@@ -46,7 +46,8 @@
     justify-content: space-evenly;
     width: 500px;
     height: fit-content;
-    background-color: #575AA1;
+    background-color: white;
+    box-shadow: 0px 0px 2px 2px rgba(255, 121, 0, 1);
     border-radius: 35px;
     margin-left: 50px;
     margin-top: 5px;
@@ -57,7 +58,7 @@
 .createri-head1-img{
     width: fit-content;
     height: fit-content;
-    background-color: #181a57;
+    backdrop-filter: blur(10px);
     border-radius: 25px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -70,6 +71,7 @@
     height: 400px;
     width: 400px;
     border-radius: 25px;
+    background-color: rgba(255, 121, 0, 0.3);
 }
 
 .createri-head1-text{
