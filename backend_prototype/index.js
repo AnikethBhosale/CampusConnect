@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 
 //Databse connection mongodb
-mongoose.connect("mongodb+srv://TrailblazeCC:campusconnect123@cluster1.ltzhhyj.mongodb.net/CampusConnect");
+mongoose.connect("mongodb://localhost:27017");
 
 //API creaction
 app.get('/', (req, res) => {

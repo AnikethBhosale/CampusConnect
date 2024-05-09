@@ -1,20 +1,27 @@
 .createri-container{
     display: flex;
     top: 180px;
-    color: white;
+    color: Black;
     position: initial;
     align-items: center;
     flex-direction: column;
 }
 
-.createri-container-head{
-    background-color: #28274d;
-    border-radius: 35px;
-    margin-top: 180px;
-    width: 1440px;
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-bottom: 50px;
+.createri-container label{
+    font-weight: bold;
+}
 
+.createri-container hr{
+    border:1px solid #ff7900;
+}
+
+.createri-container-head{
+    background-color: white;
+    border-radius: 35px;
+    margin-top: 150px;
+    width: 1440px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.35);
+    margin-bottom: 50px;
 }
 
 .createri-header{
@@ -25,7 +32,7 @@
     margin-top: 5px;
     margin-left: 50px;
     margin-right: 50px;
-    margin-bottom: 0px;
+    margin-bottom: 26px;
 }
 
 .createri-body{
@@ -46,7 +53,8 @@
     justify-content: space-evenly;
     width: 500px;
     height: fit-content;
-    background-color: #575AA1;
+    background-color: rgba(255, 121, 0, 0.3);
+    border: solid 2px #ff7900;
     border-radius: 35px;
     margin-left: 50px;
     margin-top: 5px;
@@ -57,7 +65,7 @@
 .createri-head1-img{
     width: fit-content;
     height: fit-content;
-    background-color: #181a57;
+    background-color: rgba(255, 121, 0, 0.2);
     border-radius: 25px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -66,16 +74,19 @@
 }
 
 
+
 .addproduct-thumbnail-img{
     height: 400px;
     width: 400px;
     border-radius: 25px;
+    color: #ff7900;
 }
 
 .createri-head1-text{
     width: 400px;
-    height: fit-content;
-    background-color: #181a57;
+    height: fit-content;    
+    background-color: rgba(255, 121, 0, 0.2);
+    border: solid 2px #ff7900;
     border-radius: 35px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -91,12 +102,13 @@
     margin: 10px;
     padding: 10px;
     background-color: transparent;
-    color: white;
+    color: black;
     font-size: 20px;
+    border: solid 2px #ff7900;
 }
 
 .createri-head1-text option{
-    color: #181a57;
+    color: black;
 }
 
 .createri-body1-content{
@@ -106,7 +118,8 @@
     justify-content: flex-start;
     width: 800px;
     height: fit-content;
-    background-color: #575AA1;
+    background-color: rgba(255, 121, 0, 0.3);
+    border: solid 2px #ff7900;
     border-radius: 35px;
     margin-top: 5px;
     margin-left: 0px;
@@ -116,7 +129,8 @@
 .createri-body-info{
     width: 700px;
     height: fit-content;
-    background-color: #181a57;
+    background-color: rgba(255, 121, 0, 0.3);
+    border: solid 2px #ff7900;
     border-radius: 35px;
     margin-top: 50px;
     margin-bottom: 10px;
@@ -125,7 +139,8 @@
 }
 
 .createri-body-info input{
-    border-style: solid;
+    border: solid 2px #ff7900;
+    
 }
 
 .createri-body-info textarea, input{
@@ -137,11 +152,10 @@
     border-radius: 25px;
     margin: 10px;
     padding: 10px;
-    background-color: transparent;
-    color: white;
+    background-color: rgb(243, 243, 243);
+    color: black;
     font-size: 20px;
-    border-color: white solid 1px;
-    border-style: solid;
+    border: solid 2px #ff7900;
 }
 
 .createri-date-time{
@@ -162,7 +176,8 @@
 .createri-time{
     width: 400px;
     height:fit-content;
-    background-color: #181a57;
+    background-color: rgba(255, 121, 0, 0.3);
+    border: solid 2px #ff7900;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -181,7 +196,8 @@
 .createri-date{
     width: fit-content;
     height:fit-content;
-    background-color: #181a57;
+    background-color: rgba(255, 121, 0, 0.3);
+    border: solid 2px #ff7900;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -195,8 +211,8 @@
     border-radius: 25px;
     margin: 10px;
     padding: 10px;
-    background-color: transparent;
-    color: white;
+    background-color: rgb(243, 243, 243);
+    color: black;
     font-size: 20px;
     
 }
@@ -207,8 +223,8 @@
     border-radius: 25px;
     margin: 10px;
     padding: 10px;
-    background-color: transparent;
-    color: white;
+    background-color: rgb(243, 243, 243);
+    color: black;
     font-size: 20px;
 
 }
@@ -220,7 +236,8 @@
 .createri-location{
     width: fit-content;
     height: fit-content;
-    background-color: #181a57;
+    background-color: rgba(255, 121, 0, 0.3);
+    border: solid 2px #ff7900;
     border-radius: 35px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -246,7 +263,8 @@
 .createri-event-description{
     width: 700px;
     height: fit-content;
-    background-color: #181a57;
+    background-color: rgba(255, 121, 0, 0.3);
+    border: solid 2px #ff7900;
     border-radius: 35px;
     padding: 5px;
     margin-top: 10px;
@@ -264,8 +282,8 @@
     border-radius: 25px;
     margin: 10px;
     padding: 10px;
-    background-color: transparent;
-    color: white;
+    background-color: white;
+    color: black;
     font-size: 20px;
 }
 
@@ -284,7 +302,8 @@
     height: 50px;
     border-radius: 15px;
     background-color: white;
-    color: #181a57;
+    border: solid 2px #ff7900;
+    color: #ff7900;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
     
 }

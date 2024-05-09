@@ -6,7 +6,9 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-
+}
+.registered-users{
+color:black
 }
 
 .eventname-search-bar input{
@@ -33,7 +35,7 @@
     align-items: center;
     border-radius: 15px;
     background-color: black;
-    width: 1200px;
+    width: 1350px;
     height: 200px;
-
+    padding-left:30px; 
 }

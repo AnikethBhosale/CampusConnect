@@ -120,13 +120,13 @@ function CreaterInput() {
                     <label>Location input</label>
                     <input value={postDetails.eventvenue} onChange={changeHandler} type="text" id="location" name="eventvenue" placeholder="Type your location..." required></input>
                 </div>
-                <div className="createri-registeration">
+                {/*                <div className="createri-registeration">
                     <h2>Registeration</h2>
                     <select value={postDetails.eventapproval} onChange={changeHandler} name='eventapproval'>
                         <option value="true">Not Required</option>
                         <option value="false">Required</option>
                     </select>
-                </div>
+                </div> */}
                 <div className="createri-event-description">
                     <label>discription input</label>
                     <textarea value={postDetails.eventdescription} onChange={changeHandler} type="textarea" name='eventdescription' placeholder='Type here' required></textarea>
