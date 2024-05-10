@@ -46,7 +46,7 @@ function Login() {
                 <input name='password' placeholder='Password' value={formData.password} onChange={changeHandler}></input>
             </div>
             <button className='login-button' onClick={()=>login()}>Login</button>
-            <p className='text-link'>Haven't registered yet? <Link to='/s'><h5>Register</h5></Link></p>
+            <p className='text-link'>Haven't registered yet? <Link to='/S'><h5>Register</h5></Link></p>
         </div>
     </div>
   )

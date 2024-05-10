@@ -25,7 +25,7 @@ function MainApp() {
 
   return (
     <div className="App">
-      {location.pathname !== '/' && location.pathname !== '/SignUp' && <Navbar />}
+      {location.pathname !== '/' && location.pathname !== '/S' && <Navbar />}
       <Routes>
         <Route path='/Home' element={<Home/>}/>  
         <Route path="/Devtrack" element={<Devtrack category='Devtrack'/>}/>
