@@ -1,0 +1,87 @@
+/* Default styles */
+.communities-container {
+    margin-top: 180px;
+    background-color: white;
+    border-radius: 35px;
+    width: 100%; /* Changed width to 100% for responsiveness */
+    max-width: 1440px; /* Added max-width to maintain maximum width */
+    border: solid 2px #ff7900;
+    box-shadow: 0px 0px 3px 3px rgba(225, 121, 0, 0.25);
+}
+
+.communities-head {
+    color: #ff7900;
+    font-size: 25px;
+    text-decoration: underline;
+    margin: 20px 0; /* Added margin for better spacing */
+}
+
+.communities-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjusted grid to be responsive */
+    grid-gap: 30px; /* Adjusted grid gap for better spacing */
+    padding: 20px; /* Adjusted padding for better spacing */
+}
+
+.community {
+    background-color: #575AA1;
+    border-radius: 40px;
+    color: #fff;
+    height: 260px;
+    width: 100%; /* Changed width to 100% for responsiveness */
+    transition: background-color 0.4s, transform 0.4s;
+    border: solid 2px #ff7900;
+    overflow: hidden; /* Prevent image overflow */
+}
+
+.community:hover {
+    background-color: #393B70;
+    transform: translateY(-8px);
+    z-index: 1;
+}
+
+.CommunityImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure image covers the container */
+}
+
+.backbutton {
+    position: fixed;
+    width: 100%; /* Changed width to 100% for responsiveness */
+    max-width: 1440px; /* Added max-width to maintain maximum width */
+    height: 75px;
+    top: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+    text-align: center;
+}
+
+.backbutton h1 {
+    margin: 0; /* Removed margin-top and margin-bottom */
+    font-weight: bold; /* Changed font weight to bold */
+}
+
+.backbutton button {
+    width: 45px;
+    height: 45px;
+    background-color: #575AA1;
+    margin: 20px;
+    color: white;
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .communities-list {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjusted grid for smaller screens */
+        grid-gap: 20px; /* Adjusted grid gap for smaller screens */
+        padding: 10px; /* Adjusted padding for smaller screens */
+    }
+
+    .community {
+        height: 220px; /* Adjusted height for smaller screens */
+    }
+}

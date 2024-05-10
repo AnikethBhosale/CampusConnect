@@ -1,0 +1,50 @@
+/* Default styles */
+
+
+  
+
+.backbutton {
+    position: fixed;
+    width: 100%;
+    max-width: 1440px;
+    height: 75px;
+    top: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.backbutton h1 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.backbutton button {
+    width: 75px; /* Adjusted width for the button */
+    height: 45px;
+    background-color: rgba(225, 121, 0, 0.25);
+    margin: 20px; /* Adjusted margin for better spacing */
+    color: #ff7900;
+    border: solid 2px #ff7900;
+    border-radius: 50px;
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .backbutton {
+        top: 75px;
+    }
+
+    .backbutton button {
+        width: 60px; /* Adjusted width for the button */
+        margin: 10px; /* Adjusted margin for better spacing */
+    }
+
+    
+      
+}

@@ -1,0 +1,62 @@
+.home-feed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%; /* Adjusted for responsiveness */
+    max-width: 1200px; /* Limit maximum width for larger screens */
+    height: fit-content;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 90%; /* Adjusted for responsiveness */
+    max-width: 1200px; /* Limit maximum width for larger screens */
+    height: auto; /* Changed to auto for dynamic height */
+    margin-top: 20px; /* Adjusted for better spacing */
+    margin-bottom: 20px; /* Adjusted for better spacing */
+    border-radius: 35px;
+    overflow: hidden; /* Prevents content overflow */
+}
+
+.home-content-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%; /* Adjusted for responsiveness */
+    max-width: 300px; /* Limit maximum width for larger screens */
+    height: 100%; /* Changed to 100% for full height */
+    margin: 20px;
+}
+
+.home-content-img {
+    width: 100%; /* Adjusted to occupy full width of parent */
+    height: auto; /* Adjusted to maintain aspect ratio */
+    max-width: 300px; /* Limit maximum width for larger screens */
+    border-radius: 35px;
+}
+
+.home-content-head button {
+    width: 200px;
+    height: 50px;
+    background-color: rgba(225, 121, 0, 0.3);
+    border-radius: 35px;
+    margin: 20px;
+}
+
+.home-content-text {
+    width: 60%; /* Adjusted for responsiveness */
+    max-width: 500px; /* Limit maximum width for larger screens */
+    height: 100%; /* Changed to 100% for full height */
+    background-color: white;
+    border-radius: 35px;
+    margin: 20px;
+}

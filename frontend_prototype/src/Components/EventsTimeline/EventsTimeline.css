@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    top: 100px;
+    align-items: center;
+    flex-direction: column;
+    position: inherit;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto; /* Center horizontally */
+}
+
+.container-body {
+    border: solid 2px #ff7900;
+    background-color: #fff;
+    border-radius: 35px;
+    margin-top: 50px; /* Adjusted for better spacing */
+    margin-bottom: 50px; /* Adjusted for better spacing */
+    padding: 20px;
+    width: 90%; /* Adjusted for responsiveness */
+    max-width: 1200px; /* Limit maximum width for larger screens */
+    box-shadow: 0px 0px 4px 4px rgba(225, 121, 0, 0.3);
+}
+
+.body-content h1 {
+    font-size: 36px; /* Adjusted for better readability */
+    font-weight: 700;
+    color: #ff7900;
+    margin: 20px 0; /* Adjusted for better spacing */
+    text-align: center;
+    text-decoration: underline;
+}
+
+.timelines {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.timeline1,
+.timeline2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%; /* Adjusted for responsiveness */
+    max-width: 1200px; /* Limit maximum width for larger screens */
+    margin-top: 25px;
+}
+
+.date-box {
+    width: 30%; /* Adjusted for responsiveness */
+    max-width: 300px; /* Limit maximum width for larger screens */
+    height: 77px;
+    border-radius: 50px;
+    background-color: #575AA1;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid #010030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date-box h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+}
+
+.timeline-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.timeline-card1,
+.timeline-card2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%; /* Adjusted for responsiveness */
+    max-width: 1200px; /* Limit maximum width for larger screens */
+    height: 200px;
+    border-radius: 35px;
+    background-color: #575AA1;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid #010030;
+}
+
+.timeline-card1 img,
+.timeline-card2 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 35px;
+}
+
+.card-text {
+    color: #ffffff;
+}

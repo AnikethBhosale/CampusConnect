@@ -1,0 +1,34 @@
+.backbutton {
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    top: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.backbutton h1 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.backbutton button {
+    width: 45px;
+    height: 45px;
+    background-color: #575AA1;
+    margin: 0 10px;
+    color: white;
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Additional media query for screen size 400x498 */
+@media screen and (max-width: 400px) {
+    .backbutton {
+        padding: 0 10px; /* Added padding for better spacing */
+    }
+}
